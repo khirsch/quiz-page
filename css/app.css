@@ -20,9 +20,30 @@ html {
   font-family: "DroidSans";
   src: url("../../fonts/DroidSans-Bold.ttf") format("truetype");
   font-weight: 700; }
-.header {
+.tile {
+  float: left;
   display: block;
-  margin: 5vh auto;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  height: 60vh;
+  background: #000; }
+  .tile:last-child {
+    margin-right: 0; }
+  @media only screen and (max-width: 425px) {
+    .tile {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 1em; }
+      .tile:last-child {
+        margin-right: 0; } }
+
+.header {
+  margin: 2em auto;
   text-align: center; }
+
+.content {
+  margin: auto 1em; }
 
 /*# sourceMappingURL=app.css.map */
