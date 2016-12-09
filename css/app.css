@@ -1,6 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 /*# sourceMappingURL=app.css.map */
