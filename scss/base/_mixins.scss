@@ -1,0 +1,12 @@
+@mixin font-face($family, $file) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$path-font}/#{$file}.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: $family;
+    src: url('#{$path-font}/#{$file}-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+}
