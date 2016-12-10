@@ -1,6 +1,6 @@
 .tile {
   @include span-columns(3 of 12);
-  height: 40vh;
+  height: 50vh;
   position: relative;
   &:nth-child(1) {
     background-color: transparentize($pink, 0.5);
@@ -11,7 +11,7 @@
   &:nth-child(2) {
     background-color: transparentize($grey, 0.5);
     &:nth-child(2)::after {
-      @include transparent-image('evilcat.png');
+      @include transparent-image('cat.png');
     }
   }
   &:nth-child(3) {
@@ -23,7 +23,7 @@
   &:nth-child(4) {
     background-color: transparentize($teal, 0.5);
     &:nth-child(4)::after {
-      @include transparent-image('cat.png');
+      @include transparent-image('evilcat.png');
     }
   }
   @media only screen and (max-width: $mobile) {

@@ -25,7 +25,7 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
-  height: 40vh;
+  height: 50vh;
   position: relative; }
   .tile:last-child {
     margin-right: 0; }
@@ -47,7 +47,7 @@ html {
     background-color: rgba(120, 122, 141, 0.5); }
     .tile:nth-child(2):nth-child(2)::after {
       content: "";
-      background: url("../../images/evilcat.png");
+      background: url("../../images/cat.png");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
@@ -75,7 +75,7 @@ html {
     background-color: rgba(83, 210, 199, 0.5); }
     .tile:nth-child(4):nth-child(4)::after {
       content: "";
-      background: url("../../images/cat.png");
+      background: url("../../images/evilcat.png");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
