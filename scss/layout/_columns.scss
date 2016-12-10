@@ -11,19 +11,19 @@
   &:nth-child(2) {
     background-color: transparentize($grey, 0.5);
     &:nth-child(2)::after {
-      @include transparent-image('evilcat.png');
+      @include transparent-image('cat.png');
     }
   }
   &:nth-child(3) {
     background-color: transparentize($yellow, 0.5);
     &:nth-child(3)::after {
-      @include transparent-image('spacecat.jpg');
+      @include transparent-image('evilcat.png');
     }
   }
   &:nth-child(4) {
     background-color: transparentize($teal, 0.5);
     &:nth-child(4)::after {
-      @include transparent-image('cat.png');
+      @include transparent-image('spacecat.jpg');
     }
   }
   @media only screen and (max-width: $mobile) {
