@@ -1,8 +1,31 @@
 .tile {
   @include span-columns(3 of 12);
-  height: 60vh;
-  background: #000;
-
+  height: 40vh;
+  position: relative;
+  &:nth-child(1) {
+    background-color: transparentize($pink, 0.5);
+    &:nth-child(1)::after {
+      @include transparent-image('pizzacat.jpg');
+    }
+  }
+  &:nth-child(2) {
+    background-color: transparentize($grey, 0.5);
+    &:nth-child(2)::after {
+      @include transparent-image('evilcat.png');
+    }
+  }
+  &:nth-child(3) {
+    background-color: transparentize($yellow, 0.5);
+    &:nth-child(3)::after {
+      @include transparent-image('spacecat.jpg');
+    }
+  }
+  &:nth-child(4) {
+    background-color: transparentize($teal, 0.5);
+    &:nth-child(4)::after {
+      @include transparent-image('cat.png');
+    }
+  }
   @media only screen and (max-width: $mobile) {
     @include span-columns(12 of 12);
     margin-bottom: 1em;

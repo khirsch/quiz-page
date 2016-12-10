@@ -10,3 +10,17 @@
     font-weight: 700;
   }
 }
+
+@mixin transparent-image($img-file) {
+  content: "";
+  background: url('#{$path-img}/#{$img-file}');
+  background-size: cover;
+  background-position: top;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
