@@ -13,6 +13,7 @@ html {
   padding: 0; }
 
 .title, p {
+  margin-top: 1.5em;
   padding: 0 1em; }
 
 p {
@@ -20,13 +21,18 @@ p {
   font-size: 14px; }
 
 button {
-  display: block;
-  margin: auto;
   width: 10em;
   height: 2em;
   border: 1px solid #000;
   border-radius: 1em;
-  background: transparent; }
+  background: transparent;
+  position: absolute;
+  bottom: 50px;
+  left: 110px; }
+  @media only screen and (max-width: 425px) {
+    button {
+      bottom: 20px;
+      left: 90px; } }
 
 img {
   width: 90%;
@@ -47,7 +53,7 @@ img {
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
-  height: 60vh;
+  height: 65vh;
   position: relative; }
   .tile:last-child {
     margin-right: 0; }

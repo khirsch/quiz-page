@@ -1,6 +1,6 @@
 .tile {
   @include span-columns(3 of 12);
-  height: 60vh;
+  height: 65vh;
   position: relative;
   &:nth-child(1) {
     background-color: transparentize($pink, 0.5);
