@@ -12,9 +12,21 @@ html {
   margin: 0;
   padding: 0; }
 
-h3 {
-  text-align: center;
+.title, p {
   padding: 0 1em; }
+
+p {
+  margin: 1em auto;
+  font-size: 14px; }
+
+button {
+  display: block;
+  margin: auto;
+  width: 10em;
+  height: 2em;
+  border: 1px solid #000;
+  border-radius: 1em;
+  background: transparent; }
 
 img {
   width: 90%;

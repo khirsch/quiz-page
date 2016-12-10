@@ -5,7 +5,12 @@
   padding: 0;
 }
 
-h3 {
-  text-align: center;
+.title {
   padding: 0 1em;
+}
+
+p {
+  @extend .title;
+  margin: 1em auto;
+  font-size: 14px;
 }
