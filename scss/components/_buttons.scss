@@ -4,11 +4,9 @@ button {
   border: 1px solid #000;
   border-radius: 1em;
   background: transparent;
-  position: absolute;
-  bottom: 50px;
-  left: 110px;
+  display: block;
+  margin: 35px auto;
   @media only screen and (max-width: $mobile) {
-    bottom: 20px;
-    left: 90px;
+    margin: 5px auto;
   }
 }
