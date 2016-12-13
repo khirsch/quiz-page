@@ -26,13 +26,11 @@ button {
   border: 1px solid #000;
   border-radius: 1em;
   background: transparent;
-  position: absolute;
-  bottom: 50px;
-  left: 110px; }
+  display: block;
+  margin: 35px auto; }
   @media only screen and (max-width: 425px) {
     button {
-      bottom: 20px;
-      left: 90px; } }
+      margin: 5px auto; } }
 
 img {
   width: 90%;
@@ -42,11 +40,11 @@ img {
 
 @font-face {
   font-family: "DroidSans";
-  src: url("../../fonts/DroidSans.ttf") format("truetype");
+  src: url("../fonts/DroidSans.ttf") format("truetype");
   font-weight: 400; }
 @font-face {
   font-family: "DroidSans";
-  src: url("../../fonts/DroidSans-Bold.ttf") format("truetype");
+  src: url("../fonts/DroidSans-Bold.ttf") format("truetype");
   font-weight: 700; }
 .tile {
   float: left;
@@ -61,7 +59,7 @@ img {
     background-color: rgba(240, 62, 77, 0.5); }
     .tile:nth-child(1):nth-child(1)::after {
       content: "";
-      background: url("../../images/pizzacat.jpg");
+      background: url("../images/pizzacat.jpg");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
@@ -75,7 +73,7 @@ img {
     background-color: rgba(120, 122, 141, 0.5); }
     .tile:nth-child(2):nth-child(2)::after {
       content: "";
-      background: url("../../images/cat.png");
+      background: url("../images/cat.png");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
@@ -89,7 +87,7 @@ img {
     background-color: rgba(247, 203, 23, 0.5); }
     .tile:nth-child(3):nth-child(3)::after {
       content: "";
-      background: url("../../images/evilcat.png");
+      background: url("../images/evilcat.png");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
@@ -103,7 +101,7 @@ img {
     background-color: rgba(83, 210, 199, 0.5); }
     .tile:nth-child(4):nth-child(4)::after {
       content: "";
-      background: url("../../images/spacecat.jpg");
+      background: url("../images/spacecat.jpg");
       background-size: cover;
       background-position: top;
       opacity: 0.5;
